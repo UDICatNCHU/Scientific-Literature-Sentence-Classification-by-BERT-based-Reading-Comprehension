@@ -1,0 +1,115 @@
+code
+¢x  bertqa.py
+¢x  bertqa_pred.py
+¢x  bertwt_pred.py
+¢x  bertwt_train.py
+¢x  dir_tree.txt
+¢x  get_json.py
+¢x  get_tsv.py
+¢x  naive_and_bertc.py
+¢x  README.txt
+¢x  requirements.txt
+¢x  
+¢u¢wbert-base-uncased
+¢x      bert_config.json
+¢x      pytorch_model.bin
+¢x      vocab.txt
+¢x      
+¢u¢wdata
+¢x  ¢u¢wnicta_piboso
+¢x  ¢x      dev_clean_new.txt
+¢x  ¢x      test_clean_new.txt
+¢x  ¢x      test_clean_new_ans.json
+¢x  ¢x      test_clean_new_final_512.json
+¢x  ¢x      test_clean_new_final_512.tsv
+¢x  ¢x      train_clean_new.txt
+¢x  ¢x      train_clean_new_512.json
+¢x  ¢x      train_clean_seq.tsv
+¢x  ¢x      
+¢x  ¢u¢wPubMed_200k_RCT
+¢x  ¢x      dev_clean_new.txt
+¢x  ¢x      test_clean_new.txt
+¢x  ¢x      test_clean_new_ans.json
+¢x  ¢x      test_clean_new_final_512.json
+¢x  ¢x      test_clean_new_final_512.tsv
+¢x  ¢x      train_clean_new.txt
+¢x  ¢x      train_clean_new_512.json
+¢x  ¢x      train_clean_seq.tsv
+¢x  ¢x      
+¢x  ¢|¢wPubMed_20k_RCT
+¢x          dev_clean_new.txt
+¢x          test_clean_new.txt
+¢x          test_clean_new_ans.json
+¢x          test_clean_new_final_512.json
+¢x          test_clean_new_final_512.tsv
+¢x          train_clean_new.txt
+¢x          train_clean_new_512.json
+¢x          train_clean_seq.tsv
+¢x          
+¢u¢wpytorch_pretrained_bert
+¢x      file_utils.py
+¢x      modeling.py
+¢x      optimization.py
+¢x      tokenization.py
+¢x      
+¢|¢wresults
+    ¢u¢wBERT-C_nicta
+    ¢x      bert_config.json
+    ¢x      eval_results.txt
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢u¢wBERT-C_pm200k
+    ¢x      bert_config.json
+    ¢x      eval_results.txt
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢u¢wBERT-C_pm20k
+    ¢x      bert_config.json
+    ¢x      eval_results.txt
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢u¢wBERT-QA_nicta
+    ¢x      bert_config.json
+    ¢x      predictions_test.json
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢u¢wBERT-QA_pm200k
+    ¢x      bert_config.json
+    ¢x      predictions_test.json
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢u¢wBERT-QA_pm20k
+    ¢x      bert_config.json
+    ¢x      predictions_test.json
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢u¢wBERT-WT_nicta
+    ¢x      predictions_test.json
+    ¢x      pytorch_model.bin
+    ¢x      test_reports.txt
+    ¢x      
+    ¢u¢wBERT-WT_pm200k
+    ¢x      predictions_test.json
+    ¢x      pytorch_model.bin
+    ¢x      test_reports.txt
+    ¢x      
+    ¢u¢wBERT-WT_pm20k
+    ¢x      predictions_test.json
+    ¢x      pytorch_model.bin
+    ¢x      test_reports.txt
+    ¢x      
+    ¢u¢wNaive-BERT_nicta
+    ¢x      bert_config.json
+    ¢x      eval_results.txt
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢u¢wNaive-BERT_pm200k
+    ¢x      bert_config.json
+    ¢x      eval_results.txt
+    ¢x      pytorch_model.bin
+    ¢x      
+    ¢|¢wNaive-BERT_pm20k
+            bert_config.json
+            eval_results.txt
+            pytorch_model.bin
+            
